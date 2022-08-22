@@ -1,5 +1,21 @@
 body {
-    background-color: antiquewhite;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    background-image: url("images/campanile sunset.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center; */
 }
+
+/*
+img {
+    border: 3px solid rgb(255, 245, 202);
+    border-radius: 20px;
+    float: left;
+    max-height: fit-content;
+
+}
+*/
