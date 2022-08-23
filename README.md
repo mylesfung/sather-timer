@@ -4,5 +4,5 @@ A vibrant timer tab with preset 10, 20, and 30 minute timers for easy, medium, a
 When time is up, you'll hear the bellowing of Sather Tower's deep and profoundly-powerful bells.
 
 This flask app has yet to be deployed. 
-<a href="<img width="1013" alt="sather-timer-screenshot" src="https://user-images.githubusercontent.com/97089429/186276075-21e47a43-454f-45dd-abb0-21c9baa0b878.png">">This</a>
+<a href="https://user-images.githubusercontent.com/97089429/186276075-21e47a43-454f-45dd-abb0-21c9baa0b878.png">This</a>
  is the (tentative) GUI.
