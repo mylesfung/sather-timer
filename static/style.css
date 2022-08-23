@@ -3,19 +3,44 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
-    
-    
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center; */
+    background-attachment: fixed;   
+    text-align: center;
 }
 
-/*
-img {
-    border: 3px solid rgb(255, 245, 202);
-    border-radius: 20px;
-    float: left;
-    max-height: fit-content;
-
+.config {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 3px;
 }
-*/
+
+.config-item {
+    background-color: antiquewhite;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#easy {
+    background-color: rgb(214, 255, 154);
+}
+#medium {
+    background-color: rgb(255, 255, 145);
+}
+#hard {
+    background-color: rgb(255, 163, 181);
+}
+
+#reset {
+    background-color: blanchedalmond;
+}
+
+#timer {
+    font-size: 100px;
+    font-weight: bold;
+    background-color: aliceblue;
+    opacity: 0.85;
+    border-radius: 10px;
+    padding: 5px;
+}

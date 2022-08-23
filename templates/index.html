@@ -3,13 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sather Timer</title>
+        <title id="title">00:00</title>
         <link rel="icon" type="image/x-icon" href="static/images/campanile sunset.jpeg">
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-        <script src="main.js"></script>
+        <script src="static/script.js"></script>
     </head>
     <body>
-        Dua Lipa
+        <p>Sather Timer</p>
+        <div class="config">
+            <div>
+                <button id="easy" class="config-item" onclick="setEasy()">Easy</button>
+            </div>
+            <div>
+                <button id="medium" class="config-item" onclick="setMedium()">Medium</button>
+            </div>
+            <div>
+                <button id="hard" class="config-item" onclick="setHard()">Hard</button>
+            </div>
+        </div>
+        <div class="config">
+            <div>
+                <button id="reset" class="config-item" onclick="resetTimer()">Reset</button>
+            </div>
+        </div>
+        <p id="timer">00:00</p>
     </body>
 </html>
     
